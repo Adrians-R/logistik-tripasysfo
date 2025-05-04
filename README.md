@@ -21,6 +21,50 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## Steps For Installing
+
+1. Clone the repository
+````
+git clone https://github.com/Adrians-R/logistik-tripasysfo.git
+````
+
+2. Get in to directory
+````
+cd logistik-tripasysfo
+````
+
+2. Install dependencies
+````
+composer install
+````
+
+3. Copy .env file
+```
+cp .env.example .env
+```
+
+4. Modify `DB_*` value in `.env` with your database config.
+
+5. Generate application key:
+````
+php artisan key:generate
+````
+
+6. Migrate
+````
+php artisan migrate
+````
+
+7. Running Laravel
+````
+php artisan serve
+````
+
+8. Running node
+````
+npm install & npm run dev
+````
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
